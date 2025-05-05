@@ -25,6 +25,15 @@ public class MainTeste {
         assertEquals(2.5, main.divisao(5,2), 0.01);
     }
 
+    @Test
+    public void testePotenciaAoQuadrado() {
+        assertEquals(25, main.potenciaAoQuadrado(5),0.01);
+    }
+
+    @Test
+    public void testeRestoDivisao() {
+        assertEquals(1, main.restoDivisao(100,11), 0.01);
+    }
 
 
 }

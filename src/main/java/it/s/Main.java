@@ -24,8 +24,22 @@ public class Main {
     public double divisao (double a, double b) {
         double resultado;
         resultado = a / b;
-        return  resultado;
+        return resultado;
     }
+
+    public double potenciaAoQuadrado (double a) {
+        double resultado;
+        resultado = a * a;
+        return resultado;
+    }
+
+    public double restoDivisao (double a, double b) {
+        double resto;
+        resto = a % b;
+        return resto;
+    }
+
+
     public static void main(String[] args) {
 
 
